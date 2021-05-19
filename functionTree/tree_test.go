@@ -1,4 +1,4 @@
-package tree
+package functionTree
 
 import (
 	"sync"
@@ -16,11 +16,9 @@ func TestInsert(t *testing.T) {
 		}()
 	}
 	wg.Wait()
-	tree.DumpTree(nil)
+	tree.DumpTree()
 	tree.Delete(tree.Find(1))
 	tree.Delete(tree.Find(2))
 	tree.Delete(tree.Find(3))
-	tree.DumpTree(nil)
-	//p := tree.Find(0)
-	//fmt.Println(p.id, p.parent.GetAddr())
+	tree.DumpTree()
 }

@@ -1,14 +1,13 @@
-package tree
+package functionTree
 
 import (
-	"context"
 	"errors"
 	"sync"
 	"sync/atomic"
 	"time"
 
-	"github.com/wangaoone/FaaSNet/logger"
-	"github.com/wangaoone/FaaSNet/util"
+	"github.com/wangaoone/FaaSNet/functionTree/logger"
+	"github.com/wangaoone/FaaSNet/functionTree/util"
 )
 
 const (
@@ -205,7 +204,7 @@ func (t *Tree) rightRotate(x *Peer) {
 	y.height = 1 + util.Max(y.leftChild.GetHeight(), y.rightChild.GetHeight())
 }
 
-// Multiple cases need to be handled.
+// Delete : Multiple cases need to be handled.
 func (t *Tree) Delete(deleteNode *Peer) error {
 	t.mu.Lock()
 	defer t.mu.Unlock()
@@ -216,7 +215,6 @@ func (t *Tree) Delete(deleteNode *Peer) error {
 	}
 
 	// Record RootNode and ParentNode of DeleteNode
-	// FIXME: when and why the parent is nil
 	parent := deleteNode.parent
 	root := t.Root
 
@@ -400,8 +398,8 @@ func (t *Tree) Find(id int) *Peer {
 	return nil
 }
 
-// Print Tree in level order
-func (t *Tree) DumpTree(ctx context.Context) {
+// DumpTree : Print Tree in level order
+func (t *Tree) DumpTree() {
 	t.mu.Lock()
 	defer t.mu.Unlock()
 

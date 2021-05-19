@@ -1,4 +1,4 @@
-module github.com/wangaoone/FaaSNet
+module github.com/wangaoone/FaaSNet/functionTree
 
 go 1.14
 
