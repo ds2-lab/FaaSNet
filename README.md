@@ -50,7 +50,7 @@ Notes:
 
 ## [Function Tree prototype](https://github.com/mason-leap-lab/FaaSNet/tree/main/functionTree)
 
-Our released Function Tree (FT) prototype is the version that we evaluated in the ATC '21 paper submission. We are continuing to improve the performance of it, and We're happy to accept contributions! Please feel free to hack on the FT and integrate it into your framework/platform :-).
+Our released Function Tree (FT) prototype is the version that we evaluated in the ATC '21 paper submission. We are continuing to improve the performance of it, and we're happy to accept contributions! Please feel free to hack on the FT and integrate it into your framework/platform :-).
 
 ## To cite FaaSNet
 
