@@ -1,15 +1,16 @@
 # FaaSNet
 
-FaaSNet is a lightweight system middleware for rapid large-scale serverless container image provisioning.
+FaaSNet is a lightweight system middleware to mitigate unacceptable cold start latency for large-scale serverless container image provisioning.
 
 This repo contains two components:
 
 - Prototype of ```Function Tree``` of FaaSNet.
-- FaaS cold start trace collected from [Alibaba Cloud Function Compute]().
+- FaaS cold start trace collected from [Alibaba Cloud Function Compute](https://www.alibabacloud.com/product/function-compute).
 
 
-### Function Tree
-### FaaS cold start trace
+### [Function Tree](https://github.com/mason-leap-lab/FaaSNet/tree/main/functionTree)
+
+### [FaaS cold start trace](https://github.com/mason-leap-lab/FaaSNet/tree/main/trace)
 
 ## Paper
 
