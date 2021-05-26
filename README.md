@@ -1,6 +1,6 @@
 # FaaSNet
 
-FaaSNET is the first system that provides an end-to-end, integrated solution for FaaS-optimized container runtime provisioning. FaaSNET uses lightweight, decentralized, and adaptive Function Trees to avoid major platform bottlenecks.
+FaaSNet is the first system that provides an end-to-end, integrated solution for FaaS-optimized container runtime provisioning. FaaSNet uses lightweight, decentralized, and adaptive Function Trees to avoid major platform bottlenecks.
 
 Our USENIX ATC'21 Paper: [FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute](https://www.usenix.org/conference/atc21/presentation/wang-ao)
 
@@ -26,7 +26,7 @@ The data is made available and licensed under an [Apache License 2.0](https://gi
 #### Attribution
 
 If you use this data for a publication or project, please cite the accompanying paper:
-> Ao Wang, Shuai Chang, Huangshi Tian, Hongqi Wang, Haoran Yang, Huiba Li, Rui Du, Yue Cheng. "[FAASNET: Scalable and Fast Provisioning of Custom Serverless ContainerRuntimes at Alibaba Cloud Function Compute](https://www.usenix.org/conference/atc21/presentation/wang-ao)", in Proceedings of the 2021 USENIX Annual Technical Conference (USENIX ATC 21). USENIX Association, July 2020.
+> Ao Wang, Shuai Chang, Huangshi Tian, Hongqi Wang, Haoran Yang, Huiba Li, Rui Du, Yue Cheng. "[FaaSNet: Scalable and Fast Provisioning of Custom Serverless ContainerRuntimes at Alibaba Cloud Function Compute](https://www.usenix.org/conference/atc21/presentation/wang-ao)", in Proceedings of the 2021 USENIX Annual Technical Conference (USENIX ATC 21). USENIX Association, July 2020.
 
 Lastly, if you have any questions, comments, or concerns, or if you would like to share tools for working with the traces, please contact us at [**awang24@gmu.edu**](mailto:awang24@gmu.edu)
 
