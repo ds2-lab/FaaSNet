@@ -58,7 +58,7 @@ Our released Function Tree (FT) prototype is the version that we evaluated in th
 
 ```
 @inproceedings {273798,
-title = {FaaSMesh: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at a Large Cloud Provider},
+title = {FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute},
 booktitle = {2021 {USENIX} Annual Technical Conference ({USENIX} {ATC} 21)},
 year = {2021},
 url = {https://www.usenix.org/conference/atc21/presentation/wang-ao},
