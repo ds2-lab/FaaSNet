@@ -9,7 +9,7 @@ Download the preprint version on [arXiv](https://arxiv.org/abs/2105.11229).
 This repo contains two components:
 
 - A FaaS cold start [trace dataset](#dataset-downloading) collected from [Alibaba Cloud Function Compute](https://www.alibabacloud.com/product/function-compute).
-- The source code of the ```Function Tree``` [prototype](#funtion-tree-prototype) of FaaSNet.
+- The source code of the [function tree prototype](#function-tree-prototype) of FaaSNet.
 
 
 ## The Function Cold Start Traces from Alibaba Cloud Function Compute
@@ -28,7 +28,7 @@ The data is made available and licensed under an [Apache License 2.0](https://gi
 
 #### Dataset Downloading
 
-You can download the dataset here: [LINK](https://drive.google.com/file/d/1YLkLhbeYwxobfMtY_5LWQZyHR_ewg6HK/view?usp=sharing
+You can download the dataset here: [URL](https://drive.google.com/file/d/1YLkLhbeYwxobfMtY_5LWQZyHR_ewg6HK/view?usp=sharing
 )
 
 ### Schema and Description
@@ -49,7 +49,7 @@ Notes:
 
 ## Function Tree Prototype
 
-Our released Function Tree (FT) [prototype](https://github.com/mason-leap-lab/FaaSNet/tree/main/functionTree) is the version that we evaluated in the ATC '21 paper. We are continuing to improve the performance of it. We're happy to accept contributions! Please feel free to hack on the FT and integrate it into your framework/platform :-).
+Our released function tree (FT) [prototype](https://github.com/mason-leap-lab/FaaSNet/tree/main/functionTree) is the version that we evaluated in the ATC '21 paper. We are continuing to improve the performance of it. We're happy to accept contributions! Please feel free to hack on the FT and integrate it into your framework/platform :-).
 
 
 ## Attribution
