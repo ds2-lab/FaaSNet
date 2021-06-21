@@ -1,15 +1,15 @@
 # FaaSNet
 
-FaaSNet is the first system that provides an end-to-end, integrated solution for FaaS-optimized container runtime provisioning. FaaSNet uses lightweight, decentralized, and adaptive Function Trees to avoid major platform bottlenecks.
+FaaSNet is the first system that provides an end-to-end, integrated solution for FaaS-optimized container runtime provisioning. FaaSNet uses lightweight, decentralized, and adaptive Function Trees (FTs) to avoid major platform bottlenecks. 
 
-Our USENIX ATC'21 Paper: [FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute](https://www.usenix.org/conference/atc21/presentation/wang-ao)
+Our USENIX ATC'21 paper: [FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute](https://www.usenix.org/conference/atc21/presentation/wang-ao)
 
-You could also find the preprint version on [arXiv](https://arxiv.org/abs/2105.11229).
+Download the preprint version on [arXiv](https://arxiv.org/abs/2105.11229). 
 
 This repo contains two components:
 
-- FaaS cold start traces collected from [Alibaba Cloud Function Compute](https://www.alibabacloud.com/product/function-compute).
-- The source code of the ```Function Tree``` prototype of FaaSNet.
+- A FaaS cold start [trace dataset](#dataset-downloading) collected from [Alibaba Cloud Function Compute](https://www.alibabacloud.com/product/function-compute).
+- The source code of the ```Function Tree``` [prototype](#funtion-tree-prototype) of FaaSNet.
 
 
 ## The Function Cold Start Traces from Alibaba Cloud Function Compute
@@ -26,7 +26,7 @@ The data is made available and licensed under an [Apache License 2.0](https://gi
 
 
 
-#### Downloading
+#### Dataset Downloading
 
 You can download the dataset here: [LINK](https://drive.google.com/file/d/1YLkLhbeYwxobfMtY_5LWQZyHR_ewg6HK/view?usp=sharing
 )
