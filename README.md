@@ -18,7 +18,7 @@ This repo contains two components:
 
 Our trace dataset is a subset of the data described in, and analyzed, in our ATC '21 paper. Traces were obtained by collecting 24-hour production-level traces from two datacenters in [Alibaba Function Compute](https://www.alibabacloud.com/product/function-compute) service during May 2021.
 
-### Using the data
+### Using the Data
 
 #### License
 
@@ -60,7 +60,7 @@ If you use our trace dataset and/or the FT prototype for a publication or projec
 Lastly, if you have any questions, comments, or concerns, or if you would like to share tools for working with the traces, please contact us at [**awang24@gmu.edu**](mailto:awang24@gmu.edu)
 
 
-### To cite FaaSNet
+### To Cite FaaSNet
 
 ```
 @inproceedings {273798,
