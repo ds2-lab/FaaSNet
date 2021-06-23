@@ -16,7 +16,7 @@ This repo contains two components:
 
 ### Introduction
 
-Our trace dataset is a subset of the data described in, and analyzed, in our ATC '21 paper. Traces were obtained by collecting 24-hour production-level traces from two datacenters in [Alibaba Function Compute](https://www.alibabacloud.com/product/function-compute) service during May 2021.
+Our trace dataset is a subset of the data described in, and analyzed, in our ATC '21 paper. The traces were obtained by collecting 24-hour production-level logs from two datacenters (Beijing and Shanghai) in [Alibaba Function Compute](https://www.alibabacloud.com/product/function-compute) service during May 2021.
 
 ### Using the Data
 
