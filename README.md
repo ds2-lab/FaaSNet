@@ -64,9 +64,12 @@ Lastly, if you have any questions, comments, or concerns, or if you would like t
 
 ```
 @inproceedings {273798,
+author = {Ao Wang and Shuai Chang and Huangshi Tian and Hongqi Wang and Haoran Yang and Huiba Li and Rui Du and Yue Cheng},
 title = {FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute},
 booktitle = {2021 {USENIX} Annual Technical Conference ({USENIX} {ATC} 21)},
 year = {2021},
+isbn = {978-1-939133-23-6},
+pages = {443--457},
 url = {https://www.usenix.org/conference/atc21/presentation/wang-ao},
 publisher = {{USENIX} Association},
 month = jul,
