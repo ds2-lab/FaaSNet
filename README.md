@@ -28,8 +28,9 @@ The data is made available and licensed under an [Apache License 2.0](https://gi
 
 #### Dataset Downloading
 
-You can download the dataset here: [URL](https://drive.google.com/file/d/1YLkLhbeYwxobfMtY_5LWQZyHR_ewg6HK/view?usp=sharing
-)
+We would like you could help us take the survey before downloading the FaaS cold start traces. The link is as following [Google Form](https://forms.gle/pMucV9LsZXGymrr59), you could retrieve the download link after submmting the form successfully. 
+
+Please free to let us know if you have any further questions.
 
 ### Schema and Description
 
